@@ -15,11 +15,20 @@ li {
 a {
   text-decoration: none;
   color: black;
+  font-weight: bold;
+}
+
+li, a {
+  font-family: 'Open Sans';
+}
+p {
+  font-family: 'Roboto';
 }
 
 .main {
   width: 70%;
   margin: auto;
+  padding-top: 200px;
 }
 .bar {
   position: fixed;
@@ -51,4 +60,23 @@ a {
 }
 .list ul li {
   padding-right: 30px;
+}
+.list ul li:last-child a {
+  color: #3390FF;
+  border-bottom: 2px solid #3390FF;
+}
+
+.last a {
+  color: white;
+  background-color: #3390FF;
+}
+
+/* main */
+
+.title {
+  padding-bottom: 20px;
+}
+.text {
+  padding-bottom: 40px;
+  line-height: 25px;
 }
